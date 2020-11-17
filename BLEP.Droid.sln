@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLEP.Droid", "BLEP.Droid\BLEP.Droid.csproj", "{231657FA-0753-4F08-89A2-B4F5E74C77FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{231657FA-0753-4F08-89A2-B4F5E74C77FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231657FA-0753-4F08-89A2-B4F5E74C77FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231657FA-0753-4F08-89A2-B4F5E74C77FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231657FA-0753-4F08-89A2-B4F5E74C77FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECACA617-D2A4-4D42-BD6A-125AB614D98A}
+	EndGlobalSection
+EndGlobal
