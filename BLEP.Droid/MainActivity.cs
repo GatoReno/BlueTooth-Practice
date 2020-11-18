@@ -65,14 +65,20 @@ namespace BLEP.Droid
 
             if (coarseLocationPermissionGranted != Permission.Denied ||
                 fineLocationPermissionGranted == Permission.Denied)
+            {
+
                 ActivityCompat.RequestPermissions(this, LocationPermissions, LocationPermissionsRequestCode);
 
-            // Register for broadcasts when a device is discovered
-            _receiver = new BluetoothDeviceReceiver();
+                // Register for broadcasts when a device is discovered
+                _receiver = new BluetoothDeviceReceiver();
 
-            RegisterBluetoothReceiver();
+                RegisterBluetoothReceiver();
 
-            PopulateListView();
+                PopulateListView();
+            }
+            else {
+                Toast.MakeText(this, "BlueTooth not able", ToastLength.Long).Show();
+            }
         }
 
        

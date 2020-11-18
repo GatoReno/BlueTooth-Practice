@@ -70,16 +70,6 @@ namespace BLEP.Droid.BlueT
             {
                 // Get device
                 BluetoothDevice newDevice = (BluetoothDevice)intent.GetParcelableExtra(BluetoothDevice.ExtraDevice);
-
-                // now you could do your job with newDevice
-                // etc. check if newDevice is not already in a list and then use it in a ListView
-
-                //DeviceDetected?.Invoke(this, new BluetoothReceiverEventArgs(newDevice.Name));
-
-                //Console.WriteLine("*****");
-                //Console.WriteLine(newDevice.Address);
-                //Console.WriteLine(newDevice.Name);
-                //Console.WriteLine("*****");
             }
         }
     }

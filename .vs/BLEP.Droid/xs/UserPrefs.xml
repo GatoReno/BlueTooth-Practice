@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{231657FA-0753-4F08-89A2-B4F5E74C77FE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="BLEP.Droid/MainActivity.cs">
     <Files>
-      <File FileName="BLEP.Droid/MainActivity.cs" Line="169" Column="1" />
-      <File FileName="BLEP.Droid/ListView/IListItem.cs" Line="8" Column="7" />
-      <File FileName="BLEP.Droid/ListView/DataItem.cs" Line="24" Column="49" />
-      <File FileName="BLEP.Droid/Resources/layout/ListViewContentItem.xml" Line="21" Column="13" />
-      <File FileName="BLEP.Droid/Resources/layout/ListViewHeaderItem.xml" Line="2" Column="1" />
-      <File FileName="BLEP.Droid/Resources/layout/ListViewStatusItem.xml" Line="2" Column="1" />
-      <File FileName="BLEP.Droid/Resources/layout/content_main.xml" Line="3" Column="27" />
-      <File FileName="BLEP.Droid/ListView/ListViewAdapter.cs" Line="3" Column="35" />
-      <File FileName="BLEP.Droid/Resources/layout/activity_main.xml" Line="1" Column="1" />
-      <File FileName="BLEP.Droid/Properties/AndroidManifest.xml" Line="12" Column="79" />
-      <File FileName="BLEP.Droid/BlueT/BluetoothReceiver.cs" Line="6" Column="1" />
-      <File FileName="BLEP.Droid/BlueT/BluetoothDeviceReceiver.cs" Line="25" Column="58" />
+      <File FileName="BLEP.Droid/MainActivity.cs" Line="88" Column="85" />
+      <File FileName="BLEP.Droid/ListView/IListItem.cs" />
+      <File FileName="BLEP.Droid/ListView/DataItem.cs" />
+      <File FileName="BLEP.Droid/Resources/layout/ListViewContentItem.xml" />
+      <File FileName="BLEP.Droid/Resources/layout/ListViewHeaderItem.xml" />
+      <File FileName="BLEP.Droid/Resources/layout/ListViewStatusItem.xml" />
+      <File FileName="BLEP.Droid/Resources/layout/content_main.xml" />
+      <File FileName="BLEP.Droid/ListView/ListViewAdapter.cs" />
+      <File FileName="BLEP.Droid/Resources/layout/activity_main.xml" />
+      <File FileName="BLEP.Droid/BlueT/BluetoothReceiver.cs" />
+      <File FileName="BLEP.Droid/BlueT/BluetoothDeviceReceiver.cs" />
+      <File FileName="BLEP.Droid/Properties/AssemblyInfo.cs" />
+      <File FileName="BLEP.Droid/Properties/AndroidManifest.xml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,6 +21,8 @@
           <Node name="BLEP.Droid" expanded="True">
             <Node name="BLEP.Droid" expanded="True">
               <Node name="BlueT" expanded="True" />
+              <Node name="ListView" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="MainActivity.cs" selected="True" />
             </Node>
           </Node>
@@ -27,7 +30,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BLEP.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.pixel_3a_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.ItemProperties.BLEP.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.LDGNW18511008472" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
